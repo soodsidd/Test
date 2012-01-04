@@ -1,0 +1,24 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "github"]
+	url = git@github.com:siddsood/HelloWorld.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[remote "hw"]
+	url = git@github.com:siddsood/iOS-programming.git
+	fetch = +refs/heads/*:refs/remotes/hw/*
+[remote "hw2"]
+	url = git@github.com:.git
+	fetch = +refs/heads/*:refs/remotes/hw2/*
+[remote "origin"]
+	url = git@github,com:siddsood/iOS-programming.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "origin2"]
+	url = git@github.com:siddsood/iOS-programming.git
+	fetch = +refs/heads/*:refs/remotes/origin2/*
+[remote "origin3"]
+	url = git@github.com:siddsood/Test.git
+	fetch = +refs/heads/*:refs/remotes/origin3/*
